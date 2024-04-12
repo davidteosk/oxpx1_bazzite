@@ -12,4 +12,6 @@ create oxpx1-had-fix.conf in /etc/dracut.conf.d/
 install_items+=" /etc/modprobe.d/oxpx1-hda-fix.conf "
 ```
 ## Enable Rebuild for initramfs on next reboot
+```
 sudo touch /etc/bazzite/initramfs/rebuild
+```

@@ -1,0 +1,7 @@
+OCULINK PCIe 4.0 x4 lane
+
+Oshiri: math to calculate effective bandiwdth is 
+max payload size / (max payload size + overhead bytes) * pcie lane speed after encoding (64Gbps * 128b/130b)
+
+lets say overhead bytes is 26 then
+(256 payload / 282 total) * 63Gb/s = 57.19Gb/s or 7.14GB/s
